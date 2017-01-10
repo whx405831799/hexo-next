@@ -1,4 +1,4 @@
-title: redis-1.安装
+title: Redis-1.安装
 date: 2017/01/03 19:06:06
 categories:
 - JAVA服务端-redis
