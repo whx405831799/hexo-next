@@ -1,12 +1,10 @@
-title: Redis-3.命令-第一部分key,String,Hash
-date: 2017/01/13 19:06:06
+title: Redis-3.命令之key,String,Hash
+date: 2017/01/15 19:10:01
 categories:
 - JAVA服务端-redis
 tags:
 - redis
 ---
-
-
 # Redis命令-第一部分key,String,Hash
 ## 1.连接redis
 
@@ -23,7 +21,7 @@ eg：redis-cli -h 127.0.0.1 -p 6379 -a redis
 SET key | 插入键 | SET mykey whx| ok
 GET key | 插入键 | GET mykey whx| whx
 DEL key | 删除键 | DEL mykey| (integer) 1
-DUMP key  | 返回存储在指定键的值的序列化版本 | DUMP mykey| \x00\x03whx\a\x00N\xa8h\x85\xcb\xa1t4
+DUMP key  | 返回存储在指定键的值的序列化版本 | DUMP mykey| 省略
 EXISTS key | 查询键是否存在 | EXISTS mykey| (integer) 1
 EXPIRE key seconds | 指定键的过期时间，秒 | EXPIRE mykey 10| (integer) 1
 EXPIREAT key timestamp  | 指定的键过期时间，时间为Unix时间戳格式 | EXPIREAT mykey 1484539499| (integer) 1
