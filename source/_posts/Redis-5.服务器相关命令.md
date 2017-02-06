@@ -1,4 +1,11 @@
-# Redis-5服务器相关命令
+title: Redis-5.服务器相关命令
+date: 2017/02/06 20:38:03
+categories:
+- JAVA服务端-redis
+tags:
+- redis
+---
+# Redis-5.服务器相关命令
 ## Redis 服务器命令主要是用于管理 redis 服务
 
 命令 | 作用 | 例子 | 结果

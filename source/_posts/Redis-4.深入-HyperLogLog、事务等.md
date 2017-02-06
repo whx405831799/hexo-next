@@ -1,4 +1,11 @@
-# Redis-4.深入-HyperLogLog、事务、发布订阅等
+title: Redis-4.深入HyperLogLog、事务、发布订阅等
+date: 2017/02/05 19:58:01
+categories:
+- JAVA服务端-redis
+tags:
+- redis
+---
+# Redis-4.深入HyperLogLog、事务、发布订阅等
 
 ## 1.HyperLogLog
  HyperLogLog其实是基数估计算法。作为一种基数统计算法，比如统计一篇莎士比亚的文章中，不同单词出现的个数，如果按照平常我们想到的做法，把里面的单词都存到hashset中，求出容量即可，但是当面对的是海量数据的时候，这得占据多大的内存呢？后来就有了位图法（这里就不说了），但是hyperLogLog提供了比上面效率更高的算法。
